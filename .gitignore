@@ -1,0 +1,33 @@
+# Ignore environment and API keys
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Streamlit session cache
+.streamlit/
+
+# Ignore Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore dependency files
+*.egg-info/
+pip-log.txt
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
