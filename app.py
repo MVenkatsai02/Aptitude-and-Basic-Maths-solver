@@ -19,7 +19,7 @@ Groq_api_key = st.secrets["groq_api_key"]
 
 
 
-llm=ChatGroq(model="mixtral-8x7b-32768",groq_api_key=Groq_api_key)
+llm=ChatGroq(model="gemma2-9b-it",groq_api_key=Groq_api_key)
 
 
 ## Initializing the tools
